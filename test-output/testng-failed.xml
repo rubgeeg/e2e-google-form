@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FormTest(failed)">
+    <classes>
+      <class name="tests.Tests">
+        <methods>
+          <include name="invalidNameInput"/>
+          <include name="beforeSuit"/>
+          <include name="invalidAddressTest"/>
+          <include name="invalidEmailTest"/>
+          <include name="cleanup"/>
+          <include name="init"/>
+          <include name="checkingClearForm"/>
+        </methods>
+      </class> <!-- tests.Tests -->
+    </classes>
+  </test> <!-- FormTest(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
